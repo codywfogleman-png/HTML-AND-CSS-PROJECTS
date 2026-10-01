@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+    </style>
+    <title>Creating Effects with CSS</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li class="drop">
+                <a href="#">Images</a>
+                <div class="rollover-menu">
+                    <a href="#Image1">Image 1</a>
+                    <a href="#Image2">Image 2</a>
+                    <a href="#Image3">Image 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!--CSS Effects Challenge-->
+    <section>
+        <p class="Chewy">
+            Enhance typography
+        </p>
+    </section>
+    <!--IMAGES-->
+    <section>
+        <!--IMAGE ONE-->
+        <div class="image-container" id="Image1">
+            <img src="images/Japan.jpg">
+            <div class="overlay"></div>
+        </div>
+        <!--IMAGE TWO-->
+        <div class="image-container" id="Image2">
+            <img src="images/Japan2.jpg" class="zoom">
+        </div>
+        <!--IMAGE THREE-->
+        <div class="image-container" id="Image3">
+            <div class="circle">
+                <img src="images/Japan3.jpg">
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-text">
+            <p>The Tech Academy &copy;</p>
+        </div>
+    </footer>
+</body>
+</html>
